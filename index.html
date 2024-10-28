@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="todo-app">
+        <h1>My TO-Do App</h1>
+
+        <!-- Task Input Area -->
+        <div class="input-area">
+          <input type="text" id="new-task" placeholder="Add a new task" />
+          <button id="add-task-btn">Add Task</button>
+        </div>
+
+        <!-- FIlter Buttons -->
+        <div class="filter-buttons">
+          <button id="filter-all" class="active">All</button>
+          <button id="filter-completed">Completed</button>
+          <button id="filter-pending">Pending</button>
+        </div>
+
+        <!-- Task List -->
+        <ul id="task-list"></ul>
+
+        <!-- Edit Task List Button -->
+        <!-- <button id="edit-task-list">Edit Task</button> -->
+
+        <!-- Clear All Button -->
+        <button id="clear-tasks-btn">Clear All Task</button>
+      </div>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
